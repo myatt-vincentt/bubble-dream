@@ -33,6 +33,18 @@
     "src/Scene.tsx",
     "src/FaceBoundingBox.tsx",
     "src/FooterHud.tsx",
-    "src/HandBoundingBox.tsx"
+    "src/HandBoundingBox.tsx",
+    "src/bubbles/Dream.tsx",
+    "src/bubbles/ExperienceStatus.tsx",
+    "src/bubbles/Hud.tsx",
+    "src/bubbles/config.ts",
+    "src/bubbles/kiss.ts",
+    "src/bubbles/shaders.ts",
+    "src/bubbles/sound.ts",
+    "src/bubbles/state.ts",
+    "src/bubbles/world.test.ts",
+    "src/bubbles/world.ts",
+    "src/DevBubbles.tsx",
+    "src/DevMediaSwitcher.tsx"
   ]
 }

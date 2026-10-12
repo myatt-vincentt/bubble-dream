@@ -1,3 +1,21 @@
+# Bubble Dream
+
+You live inside a soap bubble floating on a dreamy pastel sky: the camera shows only inside the
+bubble, where you're cut out from your room (person segmentation) and framed head and shoulders on
+the sky seen through the bubble's swirling rainbow film. Blow a kiss and another bubble grows in at
+a free spot — another live you. Touch a bubble (tap it, or reach for it: your hands show as dots of
+light) and it pops in a rainbow ring and a spray of droplets. Bubbles drift on a slow breeze, wobble,
+and bounce softly off the edges and each other; when the last one pops, a new one rises from below.
+Endless. Tap the speaker for a soft dreamy pad and the bubbles' bloops and pops.
+
+- Dev preview without a camera: the media switcher (☰) starts on the SDK's "Person ThumbUp" video.
+  Samples don't kiss, so the dev-only key K blows a bubble; clicking a bubble pops it (a tap, in
+  every build). An optional local clip goes at `dev-media/portrait.mp4` (see
+  `dev-media/README.md`).
+- Tuning: `src/bubbles/config.ts`. How it works: `PLAN.md`.
+
+---
+
 # v2-template
 
 The Vincentt starter app: a real React + R3F + Vincentt XR SDK (`@vincentt-xr/sdk`)

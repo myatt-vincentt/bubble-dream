@@ -44,6 +44,17 @@
       "rules": {
         "react/no-unknown-property": "off"
       }
+    },
+    {
+      "files": ["src/bubbles/**/*.ts", "src/bubbles/**/*.tsx"],
+      "rules": {
+        "react/no-unknown-property": "off",
+        "no-param-reassign": ["error", { "props": false }],
+        "no-restricted-syntax": "off",
+        "no-continue": "off",
+        "no-bitwise": "off",
+        "no-plusplus": "off"
+      }
     }
   ]
 }
